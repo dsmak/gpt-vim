@@ -28,6 +28,12 @@ Requirement can be installed using the following command:
 Plug 'kamou/gpt-vim'
 ```
 
+## API Key
+OpenAI Api Key can be added to the beginning of 
+```~/.vim/plugged/gpt-vim/plugin/gpt.vim``` 
+as
+```let g:gpt_api_key = "YOUR_API_KEY"```
+
 ## Available commands
 ```
 :call gpt#Assist(0)<cr>      # Launch the prompt
